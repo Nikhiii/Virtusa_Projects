@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "firstName": "Dhaya",
+      "lastName": "d",
+      "mobileNumber": "9876543212",
+      "email": "farmer@example.com",
+      "role": "farmer",
+      "password": "Prasi@2425",
+      "id": 1
+    },
+    {
+      "firstName": "Diva",
+      "lastName": "S",
+      "mobileNumber": "06385255714",
+      "email": "buyer@example.com",
+      "role": "buyer",
+      "password": "Prasi@2425",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "product": "Apple",
+      "price": "200",
+      "description": "This is a fresh apple",
+      "imageurl": "./assets/Apple.jpg",
+      "category": "Fruits",
+      "origin": "India",
+      "quantity": "2",
+      "userId": 1,
+      "id": 1
+    }
+  ]
+}

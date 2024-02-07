@@ -1,0 +1,45 @@
+.create-employee-container {
+  width: 50%;
+  margin-left: 26%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 0;
+  width: 30%;
+}
+
+.form-group input, .form-group select {
+  width: 68%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(89, 111, 134);
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+  margin-left: 140%;
+}
+
+button:hover {
+  background-color: rgb(89, 111, 134);
+}

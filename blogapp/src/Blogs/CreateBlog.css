@@ -1,0 +1,102 @@
+.create-employee-container {
+    width: 40%;
+    margin-left: 29%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.create-employee-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-group label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group select {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-group .error-message {
+    color: red;
+    font-size: 0.9em;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(89, 111, 134);
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style adjustments for Back button */
+button {
+    cursor: pointer;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #5a6268;
+}
+
+/* Tag checkboxes container */
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the space between checkboxes */
+}
+
+/* Individual tag checkbox */
+.tag-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.tag-checkbox label {
+    margin-left: 5px; /* Space between checkbox and label */
+}
+
+/* Existing styles with added .tags-container */
+.create-employee-container .form-group .error-message {
+    color: red;
+    font-size: 0.9em;
+    display: block; /* Make sure error message takes its own line */
+}
